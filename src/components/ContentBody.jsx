@@ -1,5 +1,6 @@
 import React, { PureComponent } from "react";
 import DialogueBox from "./DialogueBox";
+import Footer from "./Footer";
 import HeroCarousel from "./HeroCarousel";
 import OffersContainer from "./OffersContainer";
 
@@ -25,6 +26,7 @@ class ContentBody extends PureComponent {
         >
           {}
         </div>
+        <Footer />
         <DialogueBox
           show={this.state.dialogueBoxShow}
           closeHandle={this.handleDialogueBoxToHide}

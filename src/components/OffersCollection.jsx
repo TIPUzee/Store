@@ -6,7 +6,10 @@ class OffersCollection extends PureComponent {
   render() {
     return (
       <React.Fragment>
-        <div className="flex flex-wrap xl:justify-between lg:justify-evenly md:justify-between gap-y-8">
+        <div
+          c="offers-collection"
+          className="flex flex-wrap xl:justify-between lg:justify-evenly md:justify-between gap-y-8"
+        >
           {this.props.details.map((detail, i) =>
             this.generateOfferCard(detail)
           )}

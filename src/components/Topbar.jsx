@@ -8,7 +8,7 @@ class Topbar extends PureComponent {
   render() {
     return (
       <>
-        <div className={styles.containerFluid}>
+        <div className={styles.containerFluid} id="top-bar-id">
           <div className={styles.container + " container mx-auto"}>
             <div className={styles.logo}></div>
             <SearchTextField></SearchTextField>
