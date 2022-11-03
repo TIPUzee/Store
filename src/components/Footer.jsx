@@ -1,4 +1,5 @@
 import React, { PureComponent } from "react";
+import FooterSuggestionSection from "./FooterSuggestionSection";
 
 class Footer extends PureComponent {
   state = {};
@@ -17,6 +18,7 @@ class Footer extends PureComponent {
               Back to top
             </a>
           </div>
+          <FooterSuggestionSection />
         </footer>
       </React.Fragment>
     );
